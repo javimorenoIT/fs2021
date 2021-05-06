@@ -9,7 +9,7 @@ variable "ibmcloud_region" {
 }
 
 variable "vpc_name" {
-  default = "vpc-fs2020-lab"
+  default = "vpc-fs2021-lab"
   description = "Name of your VPC"
 }
 
