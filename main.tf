@@ -45,7 +45,7 @@ resource "ibm_is_subnet" "subnet2" {
 }
 
 resource "ibm_is_instance" "instance1javi" {
-  name    = "instance1"
+  name    = "instance1javi"
   image   = "${var.image}"
   profile = "${var.profile}"
 
@@ -61,7 +61,7 @@ resource "ibm_is_instance" "instance1javi" {
 }
 
 resource "ibm_is_instance" "javiinstance2" {
-  name    = "instance2"
+  name    = "javiinstance2"
   image   = "${var.image}"
   profile = "${var.profile}"
 
