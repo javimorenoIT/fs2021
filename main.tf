@@ -44,7 +44,7 @@ resource "ibm_is_subnet" "subnet2" {
   resource_group = "${data.ibm_resource_group.rg.id}"
 }
 
-resource "ibm_is_instance" "instance1" {
+resource "ibm_is_instance" "instance1javi" {
   name    = "instance1"
   image   = "${var.image}"
   profile = "${var.profile}"
@@ -60,7 +60,7 @@ resource "ibm_is_instance" "instance1" {
   resource_group = "${data.ibm_resource_group.rg.id}"
 }
 
-resource "ibm_is_instance" "instance2" {
+resource "ibm_is_instance" "javiinstance2" {
   name    = "instance2"
   image   = "${var.image}"
   profile = "${var.profile}"
